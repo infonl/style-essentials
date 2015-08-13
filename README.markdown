@@ -5,6 +5,7 @@
 ## Contents
 
 - clearfix
+- normalite
 - visuallyhidden
 
 ## Installation
