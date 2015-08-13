@@ -1,6 +1,6 @@
 {
   "name": "@info.nl/style-essentials",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Info.nl <npm@info.nl>",
   "license": "MIT",
   "description": "Installable Less imports for CSS snippets and patterns.",
