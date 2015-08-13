@@ -1,0 +1,24 @@
+// https://github.com/h5bp/html5-boilerplate/blob/v5.0.0/src/css/main.css#L126
+
+.visuallyhidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    &.focusable {
+        &:active,
+        &:focus {
+            position: static;
+            width: auto;
+            height: auto;
+            overflow: visible;
+            clip: auto;
+            margin: 0;
+        }
+    }
+}

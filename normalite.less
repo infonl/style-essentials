@@ -1,0 +1,140 @@
+// Derived from
+// https://github.com/necolas/normalize.css/blob/master/normalize.css
+// The objective here is *not* to normalize all browser differences
+// but to supply consistent default styles for common element types.
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+
+audio,
+canvas,
+video {
+    display: inline-block;
+}
+
+[hidden],
+template {
+    display: none;
+}
+
+img,
+svg {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    outline: none;
+}
+
+audio {
+    &:not([controls]) {
+        display: none;
+        height: 0;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+}
+
+html {
+    overflow-y: scroll;
+    text-size-adjust: 100%;
+}
+
+img {
+    border: 0;
+}
+
+// Tables
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+caption {
+    text-align: left;
+}
+
+th,
+td {
+    vertical-align: top;
+}
+
+th[scope="col"] {
+    vertical-align: bottom;
+    text-align: left;
+}
+
+th[scope="row"] {
+    text-align: right;
+}
+
+// Forms
+
+button,
+input,
+select,
+textarea {
+    outline: none;
+    box-sizing: border-box;
+    margin: 0;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+button[type="button"],
+button[type="reset"],
+button[type="submit"],
+input[type="button"],
+input[type="image"],
+input[type="reset"],
+input[type="submit"] {
+    &:not([disabled]) {
+        cursor: pointer;
+    }
+}
+
+input[type="email"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="url"],
+textarea {
+    width: 100%;
+}
+
+input[type="search"] {
+    -webkit-appearance: textfield;
+
+    &::-webkit-search-cancel-button,
+    &::-webkit-search-decoration {
+        -webkit-appearance: none;
+    }
+}

@@ -1,0 +1,14 @@
+// https://github.com/twbs/bootstrap/blob/v3.3.5/less/mixins/clearfix.less
+// Intentionally changed to produce output.
+
+.clearfix {
+    &:before,
+    &:after {
+        content: " ";
+        display: table;
+    }
+
+    &:after {
+        clear: both;
+    }
+}
